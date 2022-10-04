@@ -6,18 +6,18 @@
 }
 
 body {
-    background: #728194;
+    background: #2F4E6A;
 }
 
 /*----------------------------------------HEADER */
 
 .logo {
-    background: #728194;
+    background: #2F4E6A;
 }
 
 h1 {
     color: #fff;
-    background: #728194;
+    background: #2F4E6A;
     font-size: 500%;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -53,10 +53,12 @@ nav {
     width: 100%;
 }
 
+
 .band {
     background: #EB7F37;
-    height: 25px;
+    height: 5px;
 }
+
 
 /*----------------------------------------INTRO */
 
@@ -80,6 +82,29 @@ nav {
     color: #2F4E6A;
     border-color: #2F4E6A;
 }
+
+/*----------------------------------------IMAGES SECTION */
+
+.img-section {
+    background: #2F4E6A;
+    height: 600px;
+}
+
 /*----------------------------------------FOOTER */
+
+.footer-row {
+    background: #2F4E6A;
+}
+
+.footer-p {
+    color: #fff;
+    text-align: center;
+}
+
+i {
+    color: #fff;
+    font-size: 250%;
+    padding: 10px;
+}
 
 
