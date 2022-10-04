@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -75,6 +76,8 @@ nav {
     border-color: #fff;
     font-size: 14pt;
     font-weight: normal;
+    width: 250px;
+    margin: 0 25px 0 25px;
 }
 
 .btn-primary:hover {
@@ -88,6 +91,10 @@ nav {
 .img-section {
     background: #2F4E6A;
     height: 600px;
+}
+
+.slideshow {
+    margin-bottom: 25px;
 }
 
 /*----------------------------------------FOOTER */
