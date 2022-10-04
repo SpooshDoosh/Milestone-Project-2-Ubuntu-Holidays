@@ -5,26 +5,81 @@
     padding: 0;
 }
 
+body {
+    background: #728194;
+}
+
+/*----------------------------------------HEADER */
+
 .logo {
-    background: #eae1df;
+    background: #728194;
 }
 
 h1 {
-    color: #494462;
-    background: #eae1df;
+    color: #fff;
+    background: #728194;
     font-size: 500%;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-align: center;
     text-transform: capitalize;
 }
+nav {
+    background: #EB7F37;
+}
+
+.navbar-nav a {
+    color: #2F4E6A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover {
+    color: #2F4E6A;
+}
+
+.navbar-nav .active a {
+    text-decoration: underline;
+}
+
+/*----------------------------------------HERO IMAGE */
 
 .hero {
-    background: url(/assets/images/pexels-andrew-harvard-11311707.jpg);
-    background-position: bottom;
+    background: url(/assets/images/pexels-andrew-harvard-2587663.jpg);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
     width: 100%;
 }
+
+.band {
+    background: #EB7F37;
+    height: 25px;
+}
+
+/*----------------------------------------INTRO */
+
+.intro p {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background: #EB7F37;
+    color: #fff;
+    border-color: #fff;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+.btn-primary:hover {
+    background: #EB7F37;
+    color: #2F4E6A;
+    border-color: #2F4E6A;
+}
+/*----------------------------------------FOOTER */
+
 
