@@ -89,12 +89,7 @@ nav {
 /*----------------------------------------IMAGES SECTION */
 
 .img-section {
-    background: #2F4E6A;
-    height: 600px;
-}
-
-.slideshow {
-    margin-bottom: 25px;
+    background: #EB7F37;
 }
 
 /*----------------------------------------FOOTER */
@@ -106,6 +101,14 @@ nav {
 .footer-p {
     color: #fff;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.footer-icons {
+    color: #fff;
+    text-align: center;
 }
 
 i {
@@ -114,4 +117,13 @@ i {
     padding: 10px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 
