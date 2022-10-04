@@ -127,3 +127,28 @@ a:hover {
     text-decoration: underline;
 }
 
+/*----------------------------------------CONTACT FORM */
+
+h2 {
+    padding: 15px;
+}
+
+.contact-box {
+    background: url(/assets/images/pexels-andrew-harvard-11311707.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.contact-form {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-box {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
