@@ -218,14 +218,6 @@ h2 {
     padding: 15px;
 }
 
-.contact-box {
-    background: url(/assets/images/pexels-andrew-harvard-11311707.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 800px;
-}
-
 .contact-form {
     color: #fff;
     text-align: center;
@@ -233,8 +225,37 @@ h2 {
 }
 
 .form-box {
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: ;
+    margin: 30px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
 }
+
+.text-input, .textarea {
+    padding: 5px;
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    color: #ddd;
+    background-color: #222;
+    border-radius: 4px;
+    display: block;
+    width: 80%;
+}
+
+.textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-button {
+    width: 40%;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+
 
 /*----------------------------------------MEDIA QUERIES */
 
