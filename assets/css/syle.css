@@ -88,6 +88,27 @@ nav {
     position: relative;
 }
 
+.hero-capetown {
+    background: url(/assets/images/ct1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-durban {
+    background: url(/assets/images/dbn2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+
+}
+
 .band {
     background: #EB7F37;
     height: 5px;
