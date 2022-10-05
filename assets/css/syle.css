@@ -222,4 +222,8 @@ h2 {
         width: 100%;
         display: block;
     }
+
+    .card {
+        margin-bottom: 10px;
+    }
 }
