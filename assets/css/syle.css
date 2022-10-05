@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #2F4E6A;
+    background: #212441;
 }
 
 /*----------------------------------------HEADER */
@@ -69,7 +69,7 @@ nav {
 }
 
 .hero {
-    background: url(/assets/images/tuxpi.com.1664964278.jpg);
+    background: url(/assets/images/dbn3.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: #2F4E6A;
+    background-color: #212441;
 }
 
 .button a {
@@ -180,7 +180,7 @@ h2 {
 /*----------------------------------------FOOTER */
 
 .footer-row {
-    background: #2F4E6A;
+    background: #212441;
 }
 
 .footer-p {
@@ -253,8 +253,6 @@ h2 {
     margin-bottom: 5px;
     border-radius: 4px;
 }
-
-
 
 /*----------------------------------------MEDIA QUERIES */
 
