@@ -8,6 +8,8 @@
 
 body {
     background: #212441;
+    color: #fff;
+    font-size: 18px;
 }
 
 /*----------------------------------------HEADER */
@@ -177,6 +179,12 @@ h2 {
     text-decoration: none;
 }
 
+/*--------------------------------CAPE TOWN INTRO*/
+
+p {
+    text-align: center;
+}
+
 /*----------------------------------------FOOTER */
 
 .footer-row {
@@ -188,7 +196,7 @@ h2 {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .footer-icons {
@@ -225,16 +233,17 @@ h2 {
 }
 
 .form-box {
-    margin: 30px;
+    margin: 50px;
     border-radius: 20px;
     border: 2px solid #ccc;
     position: relative;
     background: rgba(0, 0, 0, 0.5);
+    height: 80vh;
 }
 
 .text-input, .textarea {
     padding: 5px;
-    margin: 5px auto;
+    margin: 10px auto;
     border: 1px solid #fff;
     color: #000;
     background-color: #fff;
@@ -246,6 +255,7 @@ h2 {
 .textarea {
     height: 100px;
     resize: none;
+    margin-bottom: 35px;
 }
 
 .submit-button {
