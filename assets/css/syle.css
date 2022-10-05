@@ -90,7 +90,8 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-size: large;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .btn-primary {
@@ -111,19 +112,22 @@ h2 {
 
 /*----------------------------------------IMAGES SECTION */
 
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.img-cards {
+    margin-bottom: 25px;
 }
 
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
+.card-heading {
+    color: #EB7F37;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    color: #000;
 }
 
 .title {
-    color: grey;
+    color: #000;
 }
 
 .button {
@@ -132,14 +136,14 @@ h2 {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #EB7F37;
     text-align: center;
     cursor: pointer;
     width: 100%;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #2F4E6A;
 }
 
 /*----------------------------------------FOOTER */
