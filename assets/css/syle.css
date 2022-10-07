@@ -179,7 +179,12 @@ h2 {
     text-decoration: none;
 }
 
-/*--------------------------------CAPE TOWN INTRO*/
+/*--------------------------------CAPE TOWN / DURBAN*/
+
+.frame-border {
+    border: 2px solid #EB7F37;
+    border-radius: 25px;
+}
 
 
 
