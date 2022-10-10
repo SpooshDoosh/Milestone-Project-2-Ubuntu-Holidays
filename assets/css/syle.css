@@ -71,7 +71,7 @@ nav {
 }
 
 .hero {
-    background: url(/assets/images/dbn3.jpg);
+    background: url(assets/images/dbn3.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +81,7 @@ nav {
 }
 
 .hero-contact {
-    background: url(/assets/images/dbn5.jpg);
+    background: url(assets/images/dbn5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ nav {
 }
 
 .hero-capetown {
-    background: url(/assets/images/ct1.jpg);
+    background: url(assets/images/ct1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ nav {
 }
 
 .hero-durban {
-    background: url(/assets/images/dbn2.jpg);
+    background: url(assets/images/dbn2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
