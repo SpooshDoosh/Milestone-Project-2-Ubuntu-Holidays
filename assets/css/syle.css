@@ -91,7 +91,7 @@ nav {
 }
 
 .hero-capetown {
-    background: url(..images/ct1.jpg);
+    background: url(../images/ct1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,12 +158,18 @@ h2 {
 }
 
 .card2 {
-    height: 510px;
+    height: fit-content;
     margin-bottom: 25px;
 }
 
+.activities {
+    list-style-type: circle; 
+    overflow-x: visible;
+ }
+
 .title {
     color: #000;
+    text-decoration: underline;
 }
 
 .button {
