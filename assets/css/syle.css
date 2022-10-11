@@ -344,18 +344,19 @@ h3 {
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 110vh;
         width: 100%;
+        height: 50vh;
         position: relative;
     }
     
     .hero-contact {
-        background: url(../images/responsive/dbn5-responsive.webp);
+        background: url(../images/responsive/bn5-responsive.webp);
+        background-color: #212441;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
         width: 100%;
+        height: 100vh;
         position: relative;
     }
     
@@ -364,7 +365,7 @@ h3 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 60vh;
+        height: 50vh;
         width: 100%;
         position: relative;
     }
@@ -374,11 +375,18 @@ h3 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 60vh;
+        height: 50vh;
         width: 100%;
         position: relative;
+    }  
+
+    .form-box {
+        margin: 35px auto;
+        height: fit-content;
+    }
+
     
-    }    
+    
 }
 
 @media screen and (max-width: 650px) {
@@ -390,7 +398,30 @@ h3 {
     .card {
         margin-bottom: 10px;
     }
+
+    .hero-contact {
+        background: none;
+    }
+
+    h2 {
+        padding: 10px;
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        line-height: 1.5;
+    }
+    
+    .contact-form {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .form-box {
+        margin: 25px auto;
+        height: fit-content;
+    }
+
 }
 
-@media screen and (max-width: 768) {
-}
