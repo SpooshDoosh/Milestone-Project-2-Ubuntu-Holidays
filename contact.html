@@ -26,6 +26,17 @@
 
     <link rel="stylesheet" href="assets/css/syle.css">
 
+    <!-- EmailJS -->
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("pCKPb3MSsqT8qMxMx");
+    })();
+    </script>
+
     <title>Document</title>
 </head>
 <body>
@@ -55,22 +66,22 @@
             <div class="container-fluid">
                 <div class="row contact-box">
                     <div class="col-md-6 mx-auto">
-                        <form class="contact-form form-box" action="#" method="#">
+                        <form class="contact-form form-box" onsubmit="return sendMail(this);">
                             <h2>Contact Us</h2>
                 
-                            <input class="text-input" placeholder="First Name (required)" type="text" id="fname" name="first_name" required />
+                            <input class="text-input" placeholder="First Name (required)" type="text" id="fname" name="firstname" required />
         
                             <br>
                 
-                            <input class="text-input" placeholder="Surname (required)" type="text" id="lname" name="last_name" required />
+                            <input class="text-input" placeholder="Surname (required)" type="text" id="lname" name="lastname" required />
                 
                             <br>
         
-                            <input class="text-input" placeholder="Email Address (required)" id="email" type="email" name="email_address" required />
+                            <input class="text-input" placeholder="Email Address (required)" id="email" type="email" name="emailaddress" required />
         
                             <br>
         
-                            <input class="text-input" placeholder="Contact Number (required)" id="number" type="tel" name="contact_number" required />
+                            <input class="text-input" placeholder="Contact Number (required)" id="contact" type="tel" name="contactnumber" required />
                 
                             <br>
 
@@ -133,6 +144,8 @@
         </div>
 
     <!-- JavaScript Library -->
+
+    <script src="assets/js/sendEmail.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
