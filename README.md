@@ -146,24 +146,24 @@ This project was deployed to GitHub pages. This project made use of the Code Ins
 
 ![pages](assets/readme/pages.png)
 
-4. Under "Source", select the dropdown labelled "None" and change it to "Main". Select "Save".
+4. Under "Branch", select the dropdown labelled "None" and change it to "Main". Select "Save".
 
-![source1](assets/readme/source1.png)
+![branch](assets/readme/branch.png)
 
-![source2](assets/readme/source2.png)
+![main](assets/readme/main.png)
 
-![source3](assets/readme/source3.png)
+![save](assets/readme/save.png)
 
 5. The page will now refresh automatically and provide a link to the published site.
 
-![published]()
+![published](assets/readme/published.png)
 
 ## Local Deployment
 1. Log in to GitHub and locate this project's [repository](https://github.com/SpooshDoosh/Milestone-Project-2-Ubuntu-Holidays).
 
 2. Select the "Code" dropdown and copy the link provided.
 
-![clone]()
+![clone](assets/readme/clone.png)
 
 3. You can now paste this link into your IDE terminal.
 
