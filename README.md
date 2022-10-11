@@ -76,10 +76,9 @@ The purpose of this project was to create a multiple page website for a holiday/
     - Desktop: [Home]() | [Cape Town]() | [Durban]() | [Contact Us]()
 
   * Sitemap: 
-    * Blue lines indicate page access by using the navigation bar.
-    * Purple lines indicate page access by using the buttons.
+    * All pages navigate to eachother through the use of buttons or the navigation bar.
 
-    ![sitemap]()
+    ![sitemap](assets/readme/sitemap.png)
 
   * 404 page:
     * User will be redirected to a 404 error page when attempting to access a page that no longer exists or is unavailable. This is the [404 page](404.html).
@@ -88,15 +87,15 @@ The purpose of this project was to create a multiple page website for a holiday/
 * ## Surface 
   * Colour Scheme:
 
-    ![Palette Colours]()
+    ![Palette Colours](assets/readme/palettemp2.png)
 
-    * Flame(E25822). Because orange is associated with the fruit of the same name, it can be associated with health and vitality. In designs, orange commands attention without being overpowering. It’s often considered more friendly and inviting, and less in–your–face.
+    * The colours for this project were taken from the background of the hero image on the home page.
 
-    * Fern Green(4C8044). In design, green can have a balancing and harmonizing effect, and is very stable. This particular green was chosen for the buttons to make them stand out whilst still providing a decent colour contrast ratio with white text.
+    * Princeton Orange (EB7F37)
 
-    * Charleston green (232B2B) was chosen as a substitute for a grey colour while managing to keep a general theme and link with the Fern Green (4C8044).
+    * Space Cadet (212441)
 
-    * Black and white were used for text to increase contrast between text and backgrounds.
+    * Black (000000) and white (FFFFFF) were used for text to increase contrast between text and backgrounds.
 
   * Typography:
     * Two fonts were used throughout this website.
@@ -125,7 +124,7 @@ The purpose of this project was to create a multiple page website for a holiday/
   * [Balsamiq](https://balsamiq.com/) - Used for wireframing of the website.
   * [Coolors](https://coolors.co/) - Used to assemble an appropriate colour palette.
   * [Ezgif](https://ezgif.com/) - Used to convert images to WEBP format and compress images.
-  * []() - Used to create sitemap.
+  * [Gloo Maps](https://www.gloomaps.com/) - Used to create sitemap.
 
 ---
 
