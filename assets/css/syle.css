@@ -338,6 +338,49 @@ h3 {
 }
 /*----------------------------------------MEDIA QUERIES */
 
+@media screen and (max-width: 820px) {
+    .hero {
+        background: url(../images/responsive/dbn3-responsive.webp);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .hero-contact {
+        background: url(../images/responsive/dbn5-responsive.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .hero-capetown {
+        background: url(../images/responsive/ct1-responsive.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .hero-durban {
+        background: url(../images/responsive/dbn2-responsive.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+        position: relative;
+    
+    }    
+}
+
 @media screen and (max-width: 650px) {
     .column {
         width: 100%;
@@ -347,4 +390,7 @@ h3 {
     .card {
         margin-bottom: 10px;
     }
+}
+
+@media screen and (max-width: 768) {
 }
