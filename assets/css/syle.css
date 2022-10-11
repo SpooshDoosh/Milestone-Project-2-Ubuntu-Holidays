@@ -204,9 +204,16 @@ h2 {
 
 /*--------------------------------CAPE TOWN / DURBAN*/
 
+.video-container {
+    text-align: center;
+}
+
 .frame-border {
-    border: 2px solid #EB7F37;
+    border: 1px solid #EB7F37;
     border-radius: 25px;
+    width: 885px;
+    height: 500px;
+    padding: 0;
 }
 
 #map {
