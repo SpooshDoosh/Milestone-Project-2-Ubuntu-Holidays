@@ -71,9 +71,9 @@ The purpose of this project was to create a multiple page website for a holiday/
 
 * ## Skeleton
   * Wireframes:
-    - Mobile: [Home]() | [Cape Town]() | [Durban]() | [Contact Us]() 
-    - Tablet: [Home]() | [Cape Town]() | [Durban]() | [Contact Us]()
-    - Desktop: [Home]() | [Cape Town]() | [Durban]() | [Contact Us]()
+    - Mobile: [Home](assets/wireframes/Home%20-%20mobile.png) | [Cape Town](assets/wireframes/Cape%20Town%20-%20mobile.png) | [Durban](assets/wireframes/Durban%20-%20mobile.png) | [Contact Us](assets/wireframes/Contact%20-%20mobile.png) 
+    - Tablet: [Home](assets/wireframes/Home%20-%20tablet.png) | [Cape Town](assets/wireframes/Cape%20Town%20-%20tablet.png) | [Durban](assets/wireframes/Durban%20-%20tablet.png) | [Contact Us](assets/wireframes/Contact%20-%20tablet.png)
+    - Desktop: [Home](assets/wireframes/Home%20-%20desktop.png) | [Cape Town](assets/wireframes/Cape%20Town%20-%20desktop.png) | [Durban](assets/wireframes/Durban%20-%20desktop.png) | [Contact Us](assets/wireframes/Contact%20-%20desktop.png)
 
   * Sitemap: 
     * All pages navigate to eachother through the use of buttons or the navigation bar.
