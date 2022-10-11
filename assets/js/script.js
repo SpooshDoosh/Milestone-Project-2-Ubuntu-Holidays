@@ -1,3 +1,31 @@
+//Google maps API//
+
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
+
+window.initMap = initMap;
+
+//Pop up after contact form submission//
+
+let popup = document.getElementById("popup");
+
+function openPopup() {
+    popup.classList.add("open-popup");
+}
+
+function closePopup() {
+    popup.classList.remove("open-popup")
+}
+
+
+//Sends email using emailJS after contact form submission//
+
 function sendMail(contactForm) {
     emailjs.send("service_6akey94", "template_b9vyydh", {
         "from_fname": contactForm.firstname.value, 
@@ -16,3 +44,4 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         });
 }
+

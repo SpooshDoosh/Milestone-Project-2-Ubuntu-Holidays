@@ -255,6 +255,10 @@ h2 {
     padding: 15px;
 }
 
+h3 {
+    line-height: 1.5;
+}
+
 .contact-form {
     color: #fff;
     text-align: center;
@@ -287,12 +291,44 @@ h2 {
     margin-bottom: 35px;
 }
 
-.submit-button {
+.submit-button, .pop-up-button {
     width: 40%;
     margin-bottom: 5px;
     border-radius: 4px;
 }
 
+.pop-up {
+    width: 400px;
+    background: #212441;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #fff;
+    border: solid 2px #EB7F37;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.submit-icon {
+    color: #EB7F37;
+    font-size: 50px;
+}
+
+.pop-up-button {
+    color: #212441;
+    background-color: #EB7F37;
+    border: none;
+}
 /*----------------------------------------MEDIA QUERIES */
 
 @media screen and (max-width: 650px) {

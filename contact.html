@@ -88,13 +88,20 @@
                             <textarea class="textarea" placeholder="Message (required)" name="message" id="message" required></textarea>
         
                             <br>
-                
-                            <input class="button submit-button" type="submit" value="Send">
+
+                            <div class="button-popup">
+                                <button class="button submit-button" onclick="openPopup()" type="submit">Send</button>
+                                <div class="pop-up" id="popup">
+                                    <i class="fa-solid fa-square-check submit-icon"></i>
+                                    <h3>Thank you!</h3>
+                                    <p>Enquiry succesfully sent.</p>
+                                    <button class="pop-up-button" onclick="closePopup()" type="button">Close</button>
+                                </div>
+                            </div>
                         </form> 
                     </div>
                 </div>
             </div>
-
         </div>
     </header>
 
@@ -145,7 +152,7 @@
 
     <!-- JavaScript Library -->
 
-    <script src="assets/js/sendEmail.js"></script>
+    <script src="assets/js/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
