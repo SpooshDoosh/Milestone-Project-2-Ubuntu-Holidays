@@ -4,12 +4,14 @@ let map;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+    center: { lat: -33.9249, lng: 18.4241 },
+    zoom: 15,
   });
 }
 
+  
 window.initMap = initMap;
+
 
 //Pop up after contact form submission//
 
