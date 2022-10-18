@@ -225,6 +225,23 @@ h2 {
     overflow: visible;
 }
 
+#legend {
+    font-family: "lato", sans-serif;
+    background-color: #EB7F37;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #212441;
+    color: #000;
+}
+
+#legend h3 {
+    margin-top: 0;
+}
+
+#legend img {
+    vertical-align: middle;
+}
+
 /*----------------------------------------FOOTER */
 
 .footer-row {

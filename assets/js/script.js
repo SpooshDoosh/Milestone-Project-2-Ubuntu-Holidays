@@ -4,55 +4,143 @@ let map;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -33.9249, lng: 18.4241 },
-    zoom: 15,
+    zoom: 13,
+    center: new google.maps.LatLng(-33.92444460953283, 18.418663466338568),
+    mapTypeId: "roadmap",
   });
 
-  const activities = [
-    [
-        "Iziko Bo-Kaap Museum",
-        -33.92153422096886,
-        18.41498655573794
-    ],
-    [
-        "Two Oceans Aquarium"
-        -33.90796262809507, 
-        18.41761337016955
-
-    ],
-    [
-        "V&A Waterfront"
-        -33.90655943993641, 
-        18.419320084144353
-    ],
-    [
-        "Table Mountain National Park"
-        -33.96040795755455, 
-        18.401253107872943
-    ],
-    [
-        "Scootours"
-        -33.942850666607775, 
-        18.395574727234926
-    ],
-
-
+  const iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
+  const icons = {
+    lodging: {
+      name: "Accommodation",
+      icon: iconBase + "lodging.png",
+    },
+    attraction: {
+      name: "Attractions / Activities",
+      icon: iconBase + "star.png",
+    },
+    restaurant: {
+      name: "Restaurants / Bars",
+      icon: iconBase + "snack_bar.png",
+    },
+  };
+  const features = [
+    {
+      position: new google.maps.LatLng(-33.93457336048657, 18.44743738570852),
+      type: "lodging",
+      title: "Garden Court Nelson Mandela Boulevard"
+    },
+    {
+      position: new google.maps.LatLng(-33.932077596395125, 18.427120298079892),
+      type: "lodging",
+      title: "Best Western Cape Suites Hotel"
+    },
+    {
+      position: new google.maps.LatLng(-33.93946172596997, 18.405109752022675),
+      type: "lodging",
+      title: "Kensington Place"
+    },
+    {
+      position: new google.maps.LatLng(-33.9290353767041, 18.37786465477859),
+      type: "lodging",
+      title: "Ellerman House"
+    },
+    {
+      position: new google.maps.LatLng(-33.952573869260945, 18.378261047523747),
+      type: "lodging",
+      title: "The Bay Hotel"
+    },
+    {
+      position: new google.maps.LatLng(-33.95307830542599, 18.377451958483473),
+      type: "lodging",
+      title: "The Marly Boutique Hotel and Spa"
+    },
+    {
+      position: new google.maps.LatLng(-33.921534588835705, 18.414986393558436),
+      type: "attraction",
+      title: "Iziko Bo-Kaap Museam"
+    },
+    {
+      position: new google.maps.LatLng(-33.90796315079628, 18.417612754114494),
+      type: "attraction",
+      title: "Two Oceans Aquarium"
+    },
+    {
+      position: new google.maps.LatLng(-33.90655963477768, 18.41932070406976),
+      type: "attraction",
+      title: "V&A Waterfront"
+    },
+    {
+      position: new google.maps.LatLng(-33.96041394155216, 18.401251959185316),
+      type: "attraction",
+      title: "Table Mountain National Park"
+    },
+    {
+      position: new google.maps.LatLng(-33.942850502945646, 18.395574742422603),
+      type: "attraction",
+      title: "Scootours Cape Town"
+    },
+    {
+      position: new google.maps.LatLng(-33.92849433315896, 18.414953038785907),
+      type: "attraction",
+      title: "The Planetarium"
+    },
+    {
+      position: new google.maps.LatLng(-33.95079890743787, 18.37856462600259),
+      type: "restaurant",
+      title: "The 41"
+    },
+    {
+      position: new google.maps.LatLng(-33.95420487864492, 18.377293247291995),
+      type: "restaurant",
+      title: "Dizzy's Restaurant & Pub"
+    },
+    {
+      position: new google.maps.LatLng(-33.952941552485946, 18.377413193092444),
+      type: "restaurant",
+      title: "Zenzero"
+    },
+    {
+      position: new google.maps.LatLng(-33.952880268214166, 18.377543748266113),
+      type: "restaurant",
+      title: "Surfshack"
+    },
+    {
+      position: new google.maps.LatLng(-33.95331149967668, 18.37730078417984),
+      type: "restaurant",
+      title: "The Raj"
+    },
+    {
+      position: new google.maps.LatLng(-33.95066990407833, 18.378643586376814),
+      type: "restaurant",
+      title: "Café Caprice"
+    }
   ];
 
-  for(let i = 0; i < activities.length; i++) {
-    const currentActivity= activities[i];
+  features.forEach((feature) => {
+    new google.maps.Marker({
+      position: feature.position,
+      icon: icons[feature.type].icon,
+      map: map,
+    });
+  });
 
-    const marker = new google.maps.Marker({
-        position: {lat: parseFloat(currentActivity[1]), lng: parseFloat(currentActivity[2])},
-        map,
-        animation: google.maps.Animation.DROP
-      });
+  const legend = document.getElementById("legend");
+
+  for (const key in icons) {
+    const type = icons[key];
+    const name = type.name;
+    const icon = type.icon;
+    const div = document.createElement("div");
+
+    div.innerHTML = '<img src="' + icon + '"> ' + name;
+    legend.appendChild(div);
   }
+
+  map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 }
 
-  
 window.initMap = initMap;
-
 
 //Pop up after contact form submission//
 
