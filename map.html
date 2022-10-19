@@ -31,6 +31,51 @@
     <title>Plan your trip - Ubuntu Holidays</title>
 </head>
 <body>
+    <header>
+        <div class="">
+            <!-- Nav Bar (Nav Bar from Bootstrap)-->
+            <nav class="navbar navbar-dark navbar-expand-lg">
+
+                <h1 class="logo"><a href="index.html" class="navbar-brand">Ubuntu Holidays</a></h1>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="capetown.html">Cape Town</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="durban.html">Durban</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="map.html">Explore</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mx-auto" style="text-align: center;">
+                <button class="map-center-button" onclick="changeCenter(capeTown)">View map of Cape Town</button>
+            </div>
+            <div class="col-md-4 mx-auto">
+                <div id="legend">
+                    <h3>Legend</h3>
+                </div>
+            </div>
+            <div class="col-md-4 mx-auto" style="text-align: center;">
+                <button class="map-center-button" onclick="changeCenter(durban)">View map of Durban</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="map"></div>
+    
+
      <!-- Footer -->
 
     <div class="container-fluid">

@@ -235,6 +235,7 @@ function initMap() {
   }
 
   map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+
 }
 
 window.initMap = initMap;
