@@ -208,11 +208,11 @@ h2 {
     text-align: center;
 }
 
-.frame-border {
+iframe {
     border: 1px solid #EB7F37;
     border-radius: 25px;
-    width: 885px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     padding: 0;
 }
 
