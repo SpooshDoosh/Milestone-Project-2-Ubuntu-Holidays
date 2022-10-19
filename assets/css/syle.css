@@ -286,6 +286,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.subscribe-btn {
+    color: #fff;
+}
+
 /*----------------------------------------CONTACT FORM */
 
 h2 {

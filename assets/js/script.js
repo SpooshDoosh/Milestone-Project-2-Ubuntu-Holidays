@@ -180,3 +180,8 @@ function sendMail(contactForm) {
         });
 }
 
+//Confirmation message after newsletter subscribe button is clicked//
+
+function subscribeMsg() {
+  document.getElementById("newsletter").innerHTML = "Thank you for subscribing to our newsletter!"
+}

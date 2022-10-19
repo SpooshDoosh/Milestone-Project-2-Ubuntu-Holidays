@@ -103,6 +103,35 @@
         </div>
     </header>
 
+    <!-- Bootstrap Modal -->
+
+    <div class="modal" id="subscribe" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color:#fff">Subscribe to our newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="subscribe-form" id="newsletter">
+                        <input class="text-input" placeholder="Name (required)" type="text" id="name" name="name"
+                            required />
+
+                        <br>
+
+                        <input class="text-input" placeholder="Email Address (required)" type="email" id="emailaddress"
+                            name="emailAddress" required />
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button onclick="subscribeMsg()" class="button submit-button" type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
         <!-- Footer -->
 
         <div class="container-fluid">
@@ -120,7 +149,9 @@
                         <br>
                         blahblah@yezzir.com
                         <br>
-                        <a href="#">Subscribe To Our Newsletter</a>
+                        <button class="btn subscribe-btn" data-bs-toggle="modal" data-bs-target="#subscribe">
+                            Subscribe To Our Newsletter
+                        </button>
                     </p>
                 </div>
                 <div class="col-md-4 footer-icons">

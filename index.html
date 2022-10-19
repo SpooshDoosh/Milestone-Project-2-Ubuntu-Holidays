@@ -69,7 +69,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form class="subscribe-form">
+                    <form class="subscribe-form" id="newsletter">
                         <input class="text-input" placeholder="Name (required)" type="text" id="name" name="name"
                             required />
 
@@ -77,11 +77,12 @@
 
                         <input class="text-input" placeholder="Email Address (required)" type="email" id="emailaddress"
                             name="emailAddress" required />
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button onclick="subscribeMsg()" class="button submit-button" type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button class="button submit-button" type="submit" class="btn btn-primary">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -200,7 +201,7 @@
                         <br>
                         blahblah@yezzir.com
                         <br>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribe">
+                        <button class="btn subscribe-btn" data-bs-toggle="modal" data-bs-target="#subscribe">
                             Subscribe To Our Newsletter
                         </button>
                     </p>
@@ -231,6 +232,8 @@
         </div>
 
         <!-- JavaScript Library -->
+
+        <script src="assets/js/script.js"></script>
 
         <script src="https://code.jquery.com/jquery-3.6.1.js"
             integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
