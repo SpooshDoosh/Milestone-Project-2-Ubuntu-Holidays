@@ -41,19 +41,13 @@
 
                 <h1 class="logo"><a href="index.html" class="navbar-brand">Ubuntu Holidays</a></h1>
 
-                <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                >
-                <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-  
-<!--
+
+                <!--
                 <button class="navbar-toggler  ml-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarToggler02" aria-controls="navbarToggler02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -72,6 +66,34 @@
             </nav>
         </div>
     </header>
+
+    <!-- Bootstrap Modal -->
+
+    <div class="modal" id="subscribe" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color:#fff">Subscribe to our newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="subscribe-form">
+                        <input class="text-input" placeholder="Name (required)" type="text" id="name" name="name"
+                            required />
+
+                        <br>
+
+                        <input class="text-input" placeholder="Email Address (required)" type="email" id="emailaddress"
+                            name="emailAddress" required />
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="button submit-button" type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Intro Text -->
 
@@ -109,7 +131,7 @@
 
     <div class="container-fluid">
         <div class="row img-cards">
-            
+
 
             <div class="column col-5 mx-auto">
                 <div class="card">
@@ -118,8 +140,10 @@
                         <h2 class="card-heading">Cape Town</h2>
                         <p class="title"> Welcome to the mother city!</p>
                         <p>
-                            Cape Town is a modern, cosmopolitan city surrounded by nature. Centred around Table Mountain, 
-                            one of the New 7 Wonders of the world, the Mother City is known for its beautiful beaches, stunning biodiversity, 
+                            Cape Town is a modern, cosmopolitan city surrounded by nature. Centred around Table
+                            Mountain,
+                            one of the New 7 Wonders of the world, the Mother City is known for its beautiful beaches,
+                            stunning biodiversity,
                             award-winning food and wine, and sheer variety of experiences on offer.
                         </p>
                         <p>
@@ -163,7 +187,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
 
@@ -184,7 +208,9 @@
                         <br>
                         blahblah@yezzir.com
                         <br>
-                        <a href="#">Subscribe To Our Newsletter</a>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribe">
+                            Subscribe To Our Newsletter
+                        </button>
                     </p>
                 </div>
                 <div class="col-md-4 footer-icons">

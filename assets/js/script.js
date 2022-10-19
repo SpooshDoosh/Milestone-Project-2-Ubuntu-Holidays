@@ -1,5 +1,5 @@
-//Google maps API//
 
+//Google maps//
 let map;
 
 function initMap() {
@@ -9,6 +9,7 @@ function initMap() {
     mapTypeId: "roadmap",
   });
 
+//Icons for map and legend//
   const iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
   const icons = {
     lodging: {
@@ -24,7 +25,9 @@ function initMap() {
       icon: iconBase + "snack_bar.png",
     },
   };
-  const features = [
+
+//List of locations with type to be matched to respective icons//
+  const locations = [
     {
       position: new google.maps.LatLng(-33.93457336048657, 18.44743738570852),
       type: "lodging",
@@ -117,14 +120,15 @@ function initMap() {
     }
   ];
 
-  features.forEach((feature) => {
+  locations.forEach((location) => {
     new google.maps.Marker({
-      position: feature.position,
-      icon: icons[feature.type].icon,
+      position: location.position,
+      icon: icons[location.type].icon,
       map: map,
     });
   });
 
+  //Create divs for legend icons and populate with gathered info//
   const legend = document.getElementById("legend");
 
   for (const key in icons) {

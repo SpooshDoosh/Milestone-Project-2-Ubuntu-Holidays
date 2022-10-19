@@ -217,7 +217,7 @@ h2 {
 }
 
 #map {
-    height: 500px;
+    height: 70vh;
     width: 100%;
 }
 
@@ -227,19 +227,28 @@ h2 {
 
 #legend {
     font-family: "lato", sans-serif;
+    font-size: 16px;
+    text-align: left;
     background-color: #EB7F37;
     padding: 10px;
     margin: 10px;
     border: 3px solid #212441;
-    color: #000;
+    color: #fff;
 }
 
 #legend h3 {
     margin-top: 0;
+    text-align: center;
 }
 
 #legend img {
     vertical-align: middle;
+}
+
+/*----------------------------------------MODAL */
+
+.modal-header, .modal-body, .modal-footer {
+    background-color: #323870;
 }
 
 /*----------------------------------------FOOTER */
