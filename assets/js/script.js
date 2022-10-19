@@ -2,6 +2,9 @@
 //Google maps//
 let map;
 
+const capeTown = {lat: -33.92444460953283, lng: 18.418663466338568};
+const durban = {lat: -29.85839784076911, lng: 30.972392157919394};
+
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 13,
@@ -146,17 +149,10 @@ function initMap() {
 
 window.initMap = initMap;
 
-//Pop up after contact form submission//
-
-let popup = document.getElementById("popup");
-
-function openPopup() {
-    popup.classList.add("open-popup");
-}
-
-function closePopup() {
-    popup.classList.remove("open-popup")
-}
+  //Change map center//
+  function changeCenter(center) {
+    map.setCenter(center)
+  }
 
 
 //Sends email using emailJS after contact form submission//
