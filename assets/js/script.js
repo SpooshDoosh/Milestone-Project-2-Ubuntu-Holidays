@@ -120,6 +120,96 @@ function initMap() {
       position: new google.maps.LatLng(-33.95066990407833, 18.378643586376814),
       type: "restaurant",
       title: "Café Caprice"
+    },
+    {
+      position: new google.maps.LatLng(-29.84018750698891, 31.03486056708485),
+      type: "lodging",
+      title: "Blue Waters Hotel"
+    },
+    {
+      position: new google.maps.LatLng(-29.767888029678495, 31.040196127070068),
+      type: "lodging",
+      title: "Endless Horizons Boutique Hotel"
+    },
+    {
+      position: new google.maps.LatLng(-29.871799905227, 31.051494610052373),
+      type: "lodging",
+      title: "Point Waterfront Apartments"
+    },
+    {
+      position: new google.maps.LatLng(-29.72742600280119, 31.08776482719978),
+      type: "lodging",
+      title: "Beverly Hills Hotel"
+    },
+    {
+      position: new google.maps.LatLng(-29.76211511736365, 31.06450694481901),
+      type: "lodging",
+      title: "Bentley On The Beach"
+    },
+    {
+      position: new google.maps.LatLng(-29.722891290883865, 31.07321000005819),
+      type: "lodging",
+      title: "Premier Hotel Umhlanga"
+    },
+    {
+      position: new google.maps.LatLng(-29.867256143393877, 31.045852022914712),
+      type: "attraction",
+      title: "uShaka Marine World"
+    },
+    {
+      position: new google.maps.LatLng(-29.848254350424348, 31.008287327698643),
+      type: "attraction",
+      title: "Durban Botanic Gardens"
+    },
+    {
+      position: new google.maps.LatLng(-29.868968500400943, 31.04714885733236),
+      type: "attraction",
+      title: "Zulumoon Gondolas Boat Rides"
+    },
+    {
+      position: new google.maps.LatLng(-29.87536836115765, 30.989191249864753),
+      type: "attraction",
+      title: "Phansi Museum"
+    },
+    {
+      position: new google.maps.LatLng(-29.835307625261567, 31.034989998793606),
+      type: "attraction",
+      title: "Suncoast Casino, Hotels And Entertainment"
+    },
+    {
+      position: new google.maps.LatLng(-29.82812161837584, 31.030668991933982),
+      type: "attraction",
+      title: "I Heart Market"
+    },
+    {
+      position: new google.maps.LatLng(-29.825881555509163, 31.02251484943805),
+      type: "restaurant",
+      title: "Mozambik Morningside"
+    },
+    {
+      position: new google.maps.LatLng(-29.832025174406677, 31.022794139675547),
+      type: "restaurant",
+      title: "Durban Curry House"
+    },
+    {
+      position: new google.maps.LatLng(-29.85953517053618, 30.998608554175686),
+      type: "restaurant",
+      title: "Amsterdam Bar & Grill"
+    },
+    {
+      position: new google.maps.LatLng(-29.859477235223967, 30.998117485508292),
+      type: "restaurant",
+      title: "Olive & Oil Glenwood"
+    },
+    {
+      position: new google.maps.LatLng(-29.858881456862335, 30.99713025152184),
+      type: "restaurant",
+      title: "Julio's Continental Restaurant"
+    },
+    {
+      position: new google.maps.LatLng(-29.82746442181384, 31.010949407689445),
+      type: "restaurant",
+      title: "Spiga"
     }
   ];
 
