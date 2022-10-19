@@ -230,8 +230,13 @@ function initMap() {
     const icon = type.icon;
     const div = document.createElement("div");
 
-    div.innerHTML = '<img src="' + icon + '"> ' + name;
+    if(window.innerWidth > 768){
+      div.innerHTML = '<img src="' + icon + '"> ' + name;
     legend.appendChild(div);
+  }
+
+    // div.innerHTML = '<img src="' + icon + '"> ' + name;
+    // legend.appendChild(div);
   }
 
   map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
@@ -242,7 +247,7 @@ window.initMap = initMap;
 
   //Change map center//
   function changeCenter(center) {
-    map.setCenter(center)
+    map.setCenter(center);
   }
 
 
@@ -270,5 +275,6 @@ function sendMail(contactForm) {
 //Confirmation message after newsletter subscribe button is clicked//
 
 function subscribeMsg() {
-  document.getElementById("newsletter").innerHTML = "Thank you for subscribing to our newsletter!"
+  document.getElementById("newsletter").innerHTML = "Thank you for subscribing to our newsletter!";
 }
+
