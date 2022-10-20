@@ -8,6 +8,20 @@ The website has been tested using Chrome Devloper Tools for it's responsiveness 
 
 It responds as intended on the following devices:
 
+* iPhone XR 
+
+* iPhone 12 Pro
+
+* Pixel 5
+
+* Samsung Galaxy S20 Ultra
+
+* iPad Air
+
+* iPad Mini
+
+* Surface Duo
+
 I personally tested the website on my iPad 6 and iPhone 12 Pro Max.
 
 # User Stories Testing
@@ -144,6 +158,8 @@ The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No is
 * map.html
 
     ![Explore](assets/testing/lh-explore-dt.png)
+
+    * Lower scores addressed below in Debugging section.
 
 * contact.html
 
