@@ -167,27 +167,29 @@ The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No is
 
 ## Mobile Results
 
+* Low lighthouse scores for mobile are addressed in Debugging section.
+
 * index.html
 
-    ![Index]()
+    ![Index](assets/testing/lh-index-m.png)
 
 
 * capetown.html
 
-    ![Cape Town]()
+    ![Cape Town](assets/testing/lh-capetown-m.png)
 
 
 * durban.html
 
-    ![Durban]()
+    ![Durban](assets/testing/lh-durban-m.png)
 
 * map.html
 
-    ![Explore]()
+    ![Explore](assets/testing/lh-explore-m.png)
 
 * contact.html
 
-    ![Contact]()
+    ![Contact](assets/testing/lh-contact-m.png)
 ---
 
 # Color Contrast Accessibility Validation
@@ -239,3 +241,5 @@ The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No is
 * Lighthouse report for desktop loading of map.html dictates that best practices is at 67. Main issues are related to the google map. They are as follows:
     * "Displays images with incorrect aspect ratio."
     * "Serves images with low resolution."
+
+* Lighthouse reports for mobile pages are low due mostly to issues with libraries. The main issue is "Eliminate render-blocking resources". I am unsure of how to resolve this. I have attempted to make use of "async" and "defer", with no noteable impact, therefore they have been removed.
