@@ -32,6 +32,10 @@
 
     <link rel="stylesheet" href="assets/css/syle.css">
 
+    <!-- Swwet Alert CDN -->
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- EmailJS -->
 
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -74,7 +78,7 @@
             <div class="container-fluid">
                 <div class="row contact-box">
                     <div class="col-md-6 mx-auto">
-                        <form class="contact-form form-box" onsubmit="return sendMail(this);">
+                        <form id="cont-form" class="contact-form form-box" onsubmit="return sendMail(this);">
                             <h2>Contact Us</h2>
 
                             <input class="text-input" placeholder="First Name (required)" type="text" id="fname"
@@ -102,7 +106,8 @@
 
                             <br>
 
-                            <button class="button submit-button" type="submit">Send</button>
+                            <button class="button submit-button" id="form-submit" name="submit"
+                                type="submit">Send</button>
                         </form>
                     </div>
                 </div>

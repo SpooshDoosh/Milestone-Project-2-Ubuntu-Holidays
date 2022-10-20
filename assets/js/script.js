@@ -1,9 +1,14 @@
-
 //Google maps//
 let map;
 
-const capeTown = {lat: -33.92444460953283, lng: 18.418663466338568};
-const durban = {lat: -29.85839784076911, lng: 30.972392157919394};
+const capeTown = {
+  lat: -33.92444460953283,
+  lng: 18.418663466338568
+};
+const durban = {
+  lat: -29.85839784076911,
+  lng: 30.972392157919394
+};
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
@@ -12,7 +17,7 @@ function initMap() {
     mapTypeId: "roadmap",
   });
 
-//Icons for map and legend//
+  //Icons for map and legend//
   const iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
   const icons = {
     lodging: {
@@ -29,9 +34,8 @@ function initMap() {
     },
   };
 
-//List of locations with type to be matched to respective icons//
-  const locations = [
-    {
+  //List of locations with type to be matched to respective icons//
+  const locations = [{
       position: new google.maps.LatLng(-33.93457336048657, 18.44743738570852),
       type: "lodging",
       title: "Garden Court Nelson Mandela Boulevard"
@@ -230,10 +234,10 @@ function initMap() {
     const icon = type.icon;
     const div = document.createElement("div");
 
-    if(window.innerWidth > 768){
+    if (window.innerWidth > 768) {
       div.innerHTML = '<img src="' + icon + '"> ' + name;
-    legend.appendChild(div);
-  }
+      legend.appendChild(div);
+    }
 
     // div.innerHTML = '<img src="' + icon + '"> ' + name;
     // legend.appendChild(div);
@@ -245,31 +249,38 @@ function initMap() {
 
 window.initMap = initMap;
 
-  //Change map center//
-  function changeCenter(center) {
-    map.setCenter(center);
-  }
+//Change map center//
+function changeCenter(center) {
+  map.setCenter(center);
+}
 
-
-//Sends email using emailJS after contact form submission//
+//Sends email using emailJS and alerts using Sweet Alert after contact form submission//
 
 function sendMail(contactForm) {
-    emailjs.send("service_6akey94", "template_b9vyydh", {
-        "from_fname": contactForm.firstname.value, 
-        "from_lname": contactForm.lastname.value,
-        "from_email": contactForm.emailaddress.value,
-        "from_contact": contactForm.contactnumber.value,
-        "enquiry": contactForm.message.value
+  emailjs.send("service_6akey94", "template_b9vyydh", {
+      "from_fname": contactForm.firstname.value,
+      "from_lname": contactForm.lastname.value,
+      "from_email": contactForm.emailaddress.value,
+      "from_contact": contactForm.contactnumber.value,
+      "enquiry": contactForm.message.value
     })
-    
-    .then(
-        function(response) {
-            console.log("SUCCESS!", response.status, response.text);
-        },
 
-        function(error) {
-            console.log("FAILED...", error);
-        });
+    .then(function (response) {
+      successMsg();
+      console.log('SUCCESS!', response.status, response.text);
+    }, function (error) {
+      console.log('FAILED...', error);
+    });
+
+  return false;
+}
+
+function successMsg() {
+  Swal.fire({
+    type: "success",
+    title: "Success...",
+    text: "Message succesfully sent!"
+  });
 }
 
 //Confirmation message after newsletter subscribe button is clicked//
@@ -277,4 +288,3 @@ function sendMail(contactForm) {
 function subscribeMsg() {
   document.getElementById("newsletter").innerHTML = "Thank you for subscribing to our newsletter!";
 }
-

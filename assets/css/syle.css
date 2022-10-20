@@ -9,7 +9,7 @@
 body {
     background: #212441;
     color: #fff;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 /*----------------------------------------HEADER */
@@ -111,7 +111,8 @@ nav {
 
 }
 
-.band, .band2 {
+.band,
+.band2 {
     background: #EB7F37;
     height: 5px;
 }
@@ -167,9 +168,9 @@ h2.card-heading {
 }
 
 .activities {
-    list-style-type: circle; 
+    list-style-type: circle;
     overflow-x: visible;
- }
+}
 
 .title {
     color: #000;
@@ -205,10 +206,6 @@ h2.card-heading {
 .button a:hover {
     text-decoration: none;
 }
-
-/*--------------------------------VIDEO*/
-
-
 
 /*--------------------------------MAP*/
 
@@ -253,7 +250,9 @@ h2.card-heading {
 
 /*----------------------------------------MODAL */
 
-.modal-header, .modal-body, .modal-footer {
+.modal-header,
+.modal-body,
+.modal-footer {
     background-color: #323870;
 }
 
@@ -321,7 +320,8 @@ h3 {
     height: 80vh;
 }
 
-.text-input, .textarea {
+.text-input,
+.textarea {
     padding: 5px;
     margin: 10px auto;
     border: 1px solid #fff;
@@ -356,7 +356,7 @@ h3 {
         height: 50vh;
         position: relative;
     }
-    
+
     .hero-contact {
         background: url(../images/responsive/bn5-responsive.webp);
         background-color: #212441;
@@ -367,7 +367,7 @@ h3 {
         height: 100vh;
         position: relative;
     }
-    
+
     .hero-capetown {
         background: url(../images/responsive/ct1-responsive.webp);
         background-position: center;
@@ -377,7 +377,7 @@ h3 {
         width: 100%;
         position: relative;
     }
-    
+
     .hero-durban {
         background: url(../images/responsive/dbn2-responsive.webp);
         background-position: center;
@@ -386,7 +386,7 @@ h3 {
         height: 50vh;
         width: 100%;
         position: relative;
-    }  
+    }
 
     .form-box {
         margin: 35px auto;
@@ -406,21 +406,22 @@ h3 {
         padding: 10px;
         font-size: 2.5rem;
     }
-    
+
     h3 {
         line-height: 1.5;
     }
-    
+
     .contact-form {
         color: #fff;
         text-align: center;
         font-size: 18px;
     }
-    
+
     .form-box {
         margin: 25px auto;
         height: fit-content;
     }
+
     .map-center-button {
         margin: 10px 0;
         width: fit-content;
@@ -437,4 +438,4 @@ h3 {
         background: none;
         height: fit-content;
     }
-}  
+}
