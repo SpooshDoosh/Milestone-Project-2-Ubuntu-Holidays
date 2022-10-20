@@ -421,10 +421,12 @@ h3 {
         margin: 25px auto;
         height: fit-content;
     }
-
+    .map-center-button {
+        margin: 10px 0;
+        width: fit-content;
+        padding: 10px;
+    }
 }
-
-
 
 @media screen and (max-width: 768px) {
     #legend {

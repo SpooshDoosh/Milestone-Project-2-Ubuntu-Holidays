@@ -129,25 +129,25 @@ The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No is
 
 * index.html
 
-    ![Index]()
+    ![Index](assets/testing/lh-index-dt.png)
 
 
 * capetown.html
 
-    ![Cape Town]()
+    ![Cape Town](assets/testing/lh-capetown-dt.png)
 
 
 * durban.html
 
-    ![Durban]()
+    ![Durban](assets/testing/lh-durban-dt.png)
 
 * map.html
 
-    ![Explore]()
+    ![Explore](assets/testing/lh-explore-dt.png)
 
 * contact.html
 
-    ![Contact]()
+    ![Contact](assets/testing/lh-contact-dt.png)
 
 ## Mobile Results
 
@@ -178,25 +178,27 @@ The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No is
 
 * index.html
 
-    ![Index]()
+    ![Index](assets/testing/cca-index.png)
 
 
 * capetown.html
+    * Could not successfully test this page.
 
-    ![Cape Town]()
+    ![Cape Town](assets/testing/cca-capetown.png)
 
 
 * durban.html
+    * Could not successfully test this page.
 
-    ![Durban]()
+    ![Durban](assets/testing/cca-durban.png)
 
 * map.html
 
-    ![Explore]()
+    ![Explore](assets/testing/cca-explore.png)
 
 * contact.html
 
-    ![Contact]()
+    ![Contact](assets/testing/cca-contact.png)
 
 ---
 
@@ -204,4 +206,20 @@ The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No is
 
 ## Resolved
 
+* Hamburger menu was not functional. It would display but was nothing would happen when clicked. I was making use of Bootstrap 4 classes but had imported Bootstrap 5 CDN.
+
+    * Changed classes to the appropriate Bootstrap 5 classes and issue was solved.
+
+* Map element would not show actual map. Logo, controls and container was visible but map was grey.
+    * Targeted all child elements of "#map" and set "overflow:" to "visible".
+
+
 ## Unresolved
+
+* Lighthouse report for desktop loading of map.html dictates that performance is at 86. Main issues are related to the google map. They are as follows: 
+    * "Does not use passive listeners to improve scrolling performance."
+    * "Image elements do not have explicit width and height."
+
+* Lighthouse report for desktop loading of map.html dictates that best practices is at 67. Main issues are related to the google map. They are as follows:
+    * "Displays images with incorrect aspect ratio."
+    * "Serves images with low resolution."
