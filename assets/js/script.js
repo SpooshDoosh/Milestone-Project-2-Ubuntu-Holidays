@@ -1,4 +1,5 @@
 //Google maps//
+
 let map;
 
 const capeTown = {
@@ -18,6 +19,7 @@ function initMap() {
   });
 
   //Icons for map and legend//
+
   const iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
   const icons = {
     lodging: {
@@ -35,6 +37,7 @@ function initMap() {
   };
 
   //List of locations with type to be matched to respective icons//
+
   const locations = [{
       position: new google.maps.LatLng(-33.93457336048657, 18.44743738570852),
       type: "lodging",
@@ -226,6 +229,7 @@ function initMap() {
   });
 
   //Create divs for legend icons and populate with gathered info//
+
   const legend = document.getElementById("legend");
 
   for (const key in icons) {
@@ -238,9 +242,6 @@ function initMap() {
       div.innerHTML = '<img src="' + icon + '"> ' + name;
       legend.appendChild(div);
     }
-
-    // div.innerHTML = '<img src="' + icon + '"> ' + name;
-    // legend.appendChild(div);
   }
 
   map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
@@ -250,6 +251,7 @@ function initMap() {
 window.initMap = initMap;
 
 //Change map center//
+
 function changeCenter(center) {
   map.setCenter(center);
 }
@@ -269,17 +271,30 @@ function sendMail(contactForm) {
       successMsg();
       console.log('SUCCESS!', response.status, response.text);
     }, function (error) {
+      errorMsg();
       console.log('FAILED...', error);
     });
 
   return false;
 }
 
+// Success message modal //
+
 function successMsg() {
   Swal.fire({
     type: "success",
     title: "Success...",
     text: "Message succesfully sent!"
+  });
+}
+
+// Error message modal //
+
+function errorMsg() {
+  Swal.fire({
+    type: "error",
+    title: "Oops...",
+    text: "It appears something has gone wrong, please try again."
   });
 }
 
