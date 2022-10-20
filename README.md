@@ -86,7 +86,7 @@ The purpose of this project was to create a multiple page website for a holiday/
 
   * 404 page:
     * User will be redirected to a 404 error page when attempting to access a page that no longer exists or is unavailable. This is the [404 page](404.html).
-    ![404]()
+    ![404](assets/readme/404.png)
 
 * ## Surface 
   * Colour Scheme:
