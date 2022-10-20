@@ -204,17 +204,7 @@ h2 {
 
 /*--------------------------------VIDEO*/
 
-.video-container {
-    text-align: center;
-}
 
-iframe {
-    border: 1px solid #EB7F37;
-    border-radius: 25px;
-    padding: 0;
-    width: 100%;
-    height: 315px;
-}
 
 /*--------------------------------MAP*/
 
