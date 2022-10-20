@@ -194,7 +194,7 @@ h2.card-heading {
 }
 
 .explore-button:hover {
-    border: 1px solid #EB7F37;
+    border: 1px solid #c75000;
 }
 
 .button a {
@@ -215,7 +215,7 @@ h2.card-heading {
 .map-center-button {
     font-size: 18px;
     font-family: "Lato", sans-serif;
-    background-color: #EB7F37;
+    background-color: #c75000;
     color: #fff;
     height: 50px;
     width: 70%;

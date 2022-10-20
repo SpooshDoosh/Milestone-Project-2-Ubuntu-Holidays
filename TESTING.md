@@ -98,19 +98,105 @@ I personally tested the website on my iPad 6 and iPhone 12 Pro Max.
 
 ## HTML
 
+Each page of the website was run through the W3C Markup Validation Service to ensure there were no errors.
+
+* index.html
+    ![Index](assets/testing/html-validator-index.png)
+
+* capetown.html
+    ![Cape Town](assets/testing/html-validator-capetown.png)
+
+* durban.html
+    ![Durban](assets/testing/html-validator-durban.png)
+
+* map.html
+    ![Explore](assets/testing/html-validator-map.png)
+
+* contact.html
+    ![Contact Us](assets/testing/html-validator-contact.png)
+
 ## CSS
 
+The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No issues or errors were found.
+
+* style.css
+    ![css](assets/testing/css-validator.png)
 ---
 
 # Lighthouse
 
 ## Desktop Results
 
+* index.html
+
+    ![Index]()
+
+
+* capetown.html
+
+    ![Cape Town]()
+
+
+* durban.html
+
+    ![Durban]()
+
+* map.html
+
+    ![Explore]()
+
+* contact.html
+
+    ![Contact]()
+
 ## Mobile Results
 
+* index.html
+
+    ![Index]()
+
+
+* capetown.html
+
+    ![Cape Town]()
+
+
+* durban.html
+
+    ![Durban]()
+
+* map.html
+
+    ![Explore]()
+
+* contact.html
+
+    ![Contact]()
 ---
 
 # Color Contrast Accessibility Validation
+
+* index.html
+
+    ![Index]()
+
+
+* capetown.html
+
+    ![Cape Town]()
+
+
+* durban.html
+
+    ![Durban]()
+
+* map.html
+
+    ![Explore]()
+
+* contact.html
+
+    ![Contact]()
 
 ---
 
