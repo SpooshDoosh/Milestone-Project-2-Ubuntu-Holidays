@@ -133,7 +133,7 @@ h2 {
 }
 
 h2.card-heading {
-    color: #CB5E16;
+    color: #C75000;
 }
 
 .intro p {
@@ -183,11 +183,10 @@ h2.card-heading {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #CB5E16;
+    background-color: #C75000;
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-weight: bold;
 }
 
 .button:hover {
