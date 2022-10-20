@@ -187,6 +187,7 @@ h2.card-heading {
     text-align: center;
     cursor: pointer;
     width: 100%;
+    font-weight: bold;
 }
 
 .button:hover {
