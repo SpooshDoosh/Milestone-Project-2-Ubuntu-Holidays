@@ -131,6 +131,7 @@ The purpose of this project was to create a multiple page website for a holiday/
   * [Coolors](https://coolors.co/) - Used to assemble an appropriate colour palette.
   * [Ezgif](https://ezgif.com/) - Used to convert images to WEBP format and compress images.
   * [Gloo Maps](https://www.gloomaps.com/) - Used to create sitemap.
+  * [Sweet Alert2](https://sweetalert2.github.io/) - Used to create modal that appears after successful contact form submission.
 
 ---
 
