@@ -1,7 +1,7 @@
 # Ubuntu Holidays
 # Milestone Project 2 - Kelvin Nicholson
 
-![Ubuntu Holidays](assets/readme/responsive.png)
+![Ubuntu Holidays](assets/readme/mockup.png)
 
 The purpose of this project was to create a multiple page website for a holiday/tour service provider.
 
@@ -49,31 +49,35 @@ The purpose of this project was to create a multiple page website for a holiday/
 
 * ## Structure
   * Existing Features:
-    * Four web pages:
+    * Five web pages:
       - Home Page - Users can find a description about the company and the destinations we provide holidays to.
-      - Cape Town Page - Users can find information about Cape Town, the package options for Cape Town, a map to browse through other attractions / accomodations, and local current weather.
-      - Durban Page - Users can find information about Durban, the package options for Durban, a map to browse through other attractions / accomodations, and local current weather.
+      - Cape Town Page - Users can find information about Cape Town, the package options for Cape Town and a button linking to a map to browse through other attractions / accomodations.
+      - Durban Page - Users can find information about Durban, the package options for Durban and a button linking to a map to browse through other attractions / accomodations.
+      - Map Page - Users can browse a map of suggested attractions, accomomodations and restaurants as well as browse all other points of interest beyond our suggestions.
       - Contact Us Page - Users can contact the company through the contact form or find other points of contact.
-    * Users can find all social media links and contact information within the footer of every page. Social media links open in new tabs.
+    * Users can find all social media links, subscribe to newsletter and contact information within the footer of every page. Social media links open in new tabs.
     * Users will receive a 404 Page if they attempt to direct to a page which does not exist.
     * Navigation: 
       * Users can land on any page of the website and find what they need within 3 clicks.
       * Navigation bar is available on every page and has links to all pages.
-      * Home page has buttons linking to Cape Town page and Durban page.
-      * Cape Town page has a button on each package that will take user to the contact form.
-      * Durban page has a button on each package that will take user to the contact form.
+      * Home page has buttons linking to Cape Town page, Durban page and Map page.
+      * Cape Town page has a button on each package that will take user to the contact form or map.
+      * Durban page has a button on each package that will take user to the contact form or map.
       * The Send button on the contact form will submit the form and confirm to the user that the form has been submitted succesfully.
       * User is redirected to Home Page when clicking on the logo.
 
   * Future Features:
     * Add the ability to view flights to the destination so that users can select a particular flight or route.
     * Add live web chat function to prevent waiting times for responses from form submissions.
+    * Add a filtered search to be used with the map.
 
 * ## Skeleton
   * Wireframes:
     - Mobile: [Home](assets/wireframes/Home%20-%20mobile.png) | [Cape Town](assets/wireframes/Cape%20Town%20-%20mobile.png) | [Durban](assets/wireframes/Durban%20-%20mobile.png) | [Contact Us](assets/wireframes/Contact%20-%20mobile.png) 
     - Tablet: [Home](assets/wireframes/Home%20-%20tablet.png) | [Cape Town](assets/wireframes/Cape%20Town%20-%20tablet.png) | [Durban](assets/wireframes/Durban%20-%20tablet.png) | [Contact Us](assets/wireframes/Contact%20-%20tablet.png)
     - Desktop: [Home](assets/wireframes/Home%20-%20desktop.png) | [Cape Town](assets/wireframes/Cape%20Town%20-%20desktop.png) | [Durban](assets/wireframes/Durban%20-%20desktop.png) | [Contact Us](assets/wireframes/Contact%20-%20desktop.png)
+
+    - The maps were removed from the original design and placed on their own webpage due to difficulties getting two separate maps to load at different center positions.
 
   * Sitemap: 
     * All pages navigate to eachother through the use of buttons or the navigation bar.
@@ -87,11 +91,13 @@ The purpose of this project was to create a multiple page website for a holiday/
 * ## Surface 
   * Colour Scheme:
 
-    ![Palette Colours](assets/readme/palettemp2.png)
+    ![Palette Colours](assets/readme/finalpalette.png)
 
     * The colours for this project were taken from the background of the hero image on the home page.
 
     * Princeton Orange (EB7F37)
+
+    * Tenne Tawny (CB5E16)
 
     * Space Cadet (212441)
 
@@ -129,7 +135,7 @@ The purpose of this project was to create a multiple page website for a holiday/
 ---
 
 # Testing
-* Please see [TESTING.md]().
+* Please see [TESTING.md](TESTING.md).
 
 ---
 
@@ -173,3 +179,5 @@ This project was deployed to GitHub pages. This project made use of the Code Ins
 * [Pexels](https://www.pexels.com/) - All images throughout the website were sourced from Pexels.
 * [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) - Used to create the mockup at the top of the README.md file.
 * [Bootstrap](https://getbootstrap.com/) - Used for navbar, cards, grid system and for making the project responsive.
+* [EmailJS](https://www.emailjs.com/) - For docuentation on how to implement EmailJS successfully.
+* [Google Maps API](https://developers.google.com/maps) - For documentation on how to implement Google Maps successfully.
