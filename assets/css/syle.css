@@ -166,6 +166,10 @@ h2.card-heading {
     height: fit-content;
 }
 
+.card p {
+    color: #000;
+}
+
 .card2 {
     height: fit-content;
     margin-bottom: 25px;
