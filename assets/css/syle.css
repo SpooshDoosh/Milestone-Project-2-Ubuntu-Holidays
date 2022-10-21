@@ -8,8 +8,12 @@
 
 body {
     background: #212441;
-    color: #fff;
+    color: #000;
     font-size: 18px;
+}
+
+p {
+    color: #fff;
 }
 
 /*----------------------------------------HEADER */
@@ -248,6 +252,10 @@ h2.card-heading {
     vertical-align: middle;
 }
 
+.gm-style-iw {
+    color: #000;
+}
+
 /*----------------------------------------MODAL */
 
 .modal-header,
@@ -282,13 +290,17 @@ i {
 }
 
 a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
 a:hover {
-    color: #fff;
+    color: #000;
     text-decoration: underline;
+}
+
+a.button:hover {
+    color: #fff;
 }
 
 .subscribe-btn {
